@@ -46,7 +46,7 @@ function compare(a, b, option) {
 				    direction = -1;
 				  } else console.log("option incorrect");
 
-	  if (a.prices[index] < b.prices[index] || a.prices[index] === null) {
+	  if (a.prices[index] < b.prices[index]) {
 		      return -direction;
 		    }
 	  if (a.prices[index] > b.prices[index]) {
